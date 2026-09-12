@@ -11,10 +11,10 @@
   "data_owner": "",
   "deadline": "",
   "stop_conditions": [
-    "走完预设轮次",
-    "连续两轮无新增质疑",
-    "人类喊停",
-    "主持人判定已收敛"
+    "走完预设轮次 / All preset rounds completed",
+    "连续两轮无新增质疑 / No new challenges for two consecutive rounds",
+    "人类喊停 / Human stops it",
+    "主持人判定已收敛 / Moderator judges it converged"
   ],
-  "notes": "修改本文件后，所有 Agent 下次读取时以本文件为准"
+  "notes": "修改本文件后，所有 Agent 下次读取时以本文件为准 / After editing this file, all Agents read this as the source of truth on next load"
 }
