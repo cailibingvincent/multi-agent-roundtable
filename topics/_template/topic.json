@@ -1,0 +1,20 @@
+{
+  "id": "",
+  "title": "",
+  "created": "",
+  "status": "open",
+  "rounds": 3,
+  "current_round": 1,
+  "moderator": "workbuddy",
+  "participants": ["workbuddy", "claude", "doubao"],
+  "red_team": "claude",
+  "data_owner": "",
+  "deadline": "",
+  "stop_conditions": [
+    "走完预设轮次",
+    "连续两轮无新增质疑",
+    "人类喊停",
+    "主持人判定已收敛"
+  ],
+  "notes": "修改本文件后，所有 Agent 下次读取时以本文件为准"
+}

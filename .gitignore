@@ -1,0 +1,30 @@
+# 议题消息与产出（含个人/敏感决策内容）
+topics/*/
+!topics/_template/
+
+# 桥接层中间产物
+outbox/*
+!outbox/.gitkeep
+inbox/*
+!inbox/.gitkeep
+
+# 已结题归档（通常含真实决策，默认不提交）
+archive/*/
+!archive/.gitkeep
+
+# 共享素材（可能含敏感图表）
+assets/*
+!assets/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地 IDE
+.idea/
+.vscode/
